@@ -80,6 +80,19 @@ Bahmni.ConceptSet.FormConditions.rules = {
             };
         }
     },
+    'JIB_Mumps' : function (formName, formFieldValues, patient) {
+        var fieldValue = formFieldValues['JIB_Mumps'];
+        if (fieldValue) {
+            return {
+                show: ["JIB_Mumps, Date Given"]
+            };
+        }
+        else {
+            return {
+                hide: ["JIB_Mumps, Date Given"]
+            };
+        }
+    },
     'JIB_Rubella' : function (formName, formFieldValues, patient) {
         var fieldValue = formFieldValues['JIB_Rubella'];
         if (fieldValue) {

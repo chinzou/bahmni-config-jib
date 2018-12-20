@@ -329,6 +329,9 @@
             "JIB_Measles": {
               "disableAddNotes": true
             },
+            "JIB_Mumps": {
+                "disableAddNotes": true
+            },
             "JIB_Rubella": {
               "disableAddNotes": true
             },
@@ -343,6 +346,9 @@
             },
             "JIB_Measles, Date Given": {
               "disableAddNotes": true
+            },
+            "JIB_Mumps, Date Given": {
+                "disableAddNotes": true
             },
             "JIB_Rubella, Date Given": {
               "disableAddNotes": true
